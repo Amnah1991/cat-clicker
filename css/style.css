@@ -1,0 +1,23 @@
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cat-container{
+    width: 40%;
+    display: inline-block
+}
+
+
+.cat-img-1{
+    display: block;
+    margin: 100px auto 20px auto;
+    width: 50%;
+}
+
+
+.cat-img-2{
+    display: block;
+    margin: 100px auto 20px auto;
+    width: 45%;
+}
