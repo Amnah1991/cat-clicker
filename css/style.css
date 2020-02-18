@@ -1,24 +1,50 @@
 .container{
     text-align: center;
     position: fixed;
-    bottom: 0;
+    bottom: 15;
     width: 100%;
 }
 
 .cat-gallery{
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-top: 50px;
 }
+
+ .img-box{
+     display: inline;
+     position: relative;
+ }
 
 .selected-img{
 width: 500px;
 height: 500px;
 object-fit: cover;
 border-radius: 8px;
+position: fixed;
+top: 2%;
+left: 35%;
+}
+
+.selectedImgName{
+    position: fixed;
+    position: fixed;
+    font-size: 89px;
+    top: 19%;
+    left: 44%;
+}
+
+.selectedImgClicks{
+    position: fixed;
+    position: fixed;
+    font-size: 50px;
+    top: 30%;
+    left: 48%;
 }
 
 
+
 .cat-img{
+    position: relative;
     display: inline-block;
     margin-left: 50px;
     width: 200px;
@@ -31,3 +57,11 @@ border-radius: 8px;
 .cat-img:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
   }
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
